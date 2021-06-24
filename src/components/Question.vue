@@ -1,21 +1,29 @@
 <template>
-  <div class="question">
-      <p>what would you choose if you are..</p>
-  </div>
-  <div class="choices">
-      <span>1</span>
-      <span>2</span>
-  </div>
+    <div class="choices">
+        
+        <div v-for="question in questions" :key="question.id">
+            <p>{{question.question}} </p>
+        </div>
+
+        {{ answers }}
+        {{ question }}
+    </div>
+
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent, ref, onMounted, computed } from "vue";
+import loadQuestions from '../composables/loadQuestions'
 
 export default defineComponent ({
     name:"Question",
-    setup() {
-        console.log('setup')
-        return {}
+    setup () {
+        const answers = ref<any[]>([])
+        const { load, questions, question, questionNumber } = loadQuestions()
+
+        onMounted(() => load())
+
+        return { questions, answers, question, questionNumber }
     }
 })
 </script>
@@ -23,8 +31,7 @@ export default defineComponent ({
 <style>
 
 .choices{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
     text-align: center;
 }
 
@@ -35,3 +42,8 @@ export default defineComponent ({
     border-radius: 3px;
 }
 </style>
+
+question number(id)
+Question
+Choices(2)
+choice -> answer, letter
