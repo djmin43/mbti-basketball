@@ -1,22 +1,22 @@
-import { ref } from 'vue'
+import { ref, reactive } from 'vue'
 
-const loadQuestions = () => {
+const loadQuestions =  () => {
     const questions = ref<any>([])
-    const questionNumber = ref<number>(0)
-    const question = ref<any>({})
-    const load = async () => {
-        try {
-            const res = await fetch('questions.json')
-            const data = await res.json()
-            questions.value = data
-            question.value = questions.value[questionNumber.value]
 
-        }
-        catch (err) {
-            console.log(err)
-        }
-    };      
-    return {load, questions, question, questionNumber}
+    const load = async () => {
+    try {
+        const res = await fetch('questions.json')
+        const data = await res.json()
+        questions.value = data
+        console.log('data')
+    }
+    catch (err) {
+        console.log(err)
+    }
+}
+
+    return { load, questions }
+
 }
 
 

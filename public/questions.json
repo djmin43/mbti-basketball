@@ -5,7 +5,7 @@
         "a": "I'm intuitive",
         "b": "I'm sensitive"
     },
-    "answer": {
+    "answers": {
         "a": "N",
         "b": "S"
     },
@@ -16,7 +16,7 @@
         "a": "I'm extroverted",
         "b": "I'm introverted"
     },
-    "answer": {
+    "answers": {
         "a": "I",
         "b": "E"
     },
