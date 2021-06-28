@@ -1,8 +1,11 @@
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 
 const getTemperament = () => {
     const answers = ref<any>([])
-    const temperament = ref<any>([])
+    const temperamentResult = ref<any>([])
+    const temperament = computed(() => {
+        return temperamentResult.value.join("")
+    })
     const temperamentCalculator = () => {
         const iCount = answers.value.filter((item: string)=> item === "I").length
         const eCount = answers.value.filter((item: string)=> item === "E").length
@@ -13,14 +16,13 @@ const getTemperament = () => {
         const pCount = answers.value.filter((item: string)=> item === "P").length
         const jCount = answers.value.filter((item: string)=> item === "J").length
 
-        if (iCount > eCount) { temperament.value.push("I") } else { temperament.value.push("E") }
-        if (sCount > nCount) { temperament.value.push("S") } else { temperament.value.push("N") }
-        if (tCount > fCount) { temperament.value.push("T") } else { temperament.value.push("F") }
-        if (pCount > jCount) { temperament.value.push("P") } else { temperament.value.push("J") }
-        console.log(temperament)
+        if (iCount > eCount) { temperamentResult.value.push("I") } else { temperamentResult.value.push("E") }
+        if (sCount > nCount) { temperamentResult.value.push("S") } else { temperamentResult.value.push("N") }
+        if (tCount > fCount) { temperamentResult.value.push("T") } else { temperamentResult.value.push("F") }
+        if (pCount > jCount) { temperamentResult.value.push("P") } else { temperamentResult.value.push("J") }
     }
 
-    return { answers, temperamentCalculator, temperament }
+    return { answers, temperamentCalculator, temperamentResult, temperament }
 
 }
 

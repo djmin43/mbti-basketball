@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-      Quiz Container!
       <Question />
   </div>
 </template>

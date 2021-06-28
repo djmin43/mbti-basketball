@@ -8,40 +8,54 @@
             <button @click="handleAnswer(currentQuestion.answers.b)" >{{ currentQuestion.choices.b}} </button>
         </div>     
     </div>
-    
-    <button @click=" questionNumber++">up</button>
-    <button @click=" questionNumber--">down</button>
-    <button @click="getTemperament"> Answers </button>
-    {{ answers }}
+    <!-- <div v-if="temperamentResult.length > 0 && renderSolution === false" > -->
+    <div >
+        <Solution @test="calculateSolution(temperament)" :temperament="temperament" />
+        <h3 v-if="renderSolution === false">asjdkf</h3>
+        {{ solutionData }}
+    </div>
 </template>
 
 <script lang="ts">
-import { defineComponent, ref, onMounted, computed, reactive, watch } from "vue";
+import { defineComponent, ref } from "vue";
 import loadQuestions from '../composables/loadQuestions'
 import getTemperament from '../composables/getTemperament'
+import Solution from './Solution.vue'
+import getSolutions from '../composables/getSolutions'
+
+interface SolType {
+    type: String,
+    image: String
+}
 
 export default defineComponent ({
     name:"Question",
+    components: {
+        Solution
+    },
     setup () {
+        const renderSolution = ref<boolean>(false)
         const { load, questions, currentQuestion, questionNumber } = loadQuestions()
-        const { answers, temperamentCalculator, temperament } = getTemperament()
-
+        const { answers, temperamentCalculator, temperamentResult, temperament } = getTemperament()
+        const { bringSolutions, solutionData } = getSolutions()
         load()
 
+        const calculateSolution = (temperament: string) =>{
+            renderSolution.value = !renderSolution.value
+            bringSolutions(temperament)
+        }   
+        
         const handleAnswer = (answer: string) => {
             answers.value.push(answer)
             questionNumber.value++
-            if ( questionNumber === 12) {
+            if ( questionNumber.value === 12) {
                 temperamentCalculator()
             }
         }
 
 
-
-
-
         return { 
-            questionNumber, questions, currentQuestion, answers, handleAnswer, getTemperament
+            questionNumber, questions, currentQuestion, answers, handleAnswer, getTemperament, temperamentResult, temperament, renderSolution, calculateSolution, solutionData
 
         }
     }

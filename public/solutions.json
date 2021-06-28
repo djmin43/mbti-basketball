@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "type": "ISFJ",
+        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
+        "name": "Tim Duncan",
+        "description": "you are tim duncan"
+    },    
+    {
+        "id": 2,
+        "type": "ESFP",
+        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
+        "name": "Tim Duncan",
+        "description": "you are tim duncan"
+    },
+    {
+        "id": 3,
+        "type": "ISFP",
+        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
+        "name": "Tim Duncan",
+        "description": "you are tim duncan"
+    },    
+    {
+        "id": 4,
+        "type": "ISTP",
+        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
+        "name": "Tim Duncan",
+        "description": "you are tim duncan"
+    },
+    {
+        "id": 5,
+        "type": "ENFP",
+        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
+        "name": "Tim Duncan",
+        "description": "you are tim duncan"
+    },    
+    {
+        "id": 6,
+        "type": "ENFJ",
+        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
+        "name": "Tim Duncan",
+        "description": "you are tim duncan"
+    },
+    {
+        "id": 7,
+        "type": "INFJ",
+        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
+        "name": "Tim Duncan",
+        "description": "you are tim duncan"
+    },    
+    {
+        "id": 8,
+        "type": "ESTP",
+        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
+        "name": "Tim Duncan",
+        "description": "you are tim duncan"
+    },
+    {
+        "id": 9,
+        "type": "ESFJ",
+        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
+        "name": "Tim Duncan",
+        "description": "you are tim duncan"
+    },    
+    {
+        "id": 10,
+        "type": "ESTJ",
+        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
+        "name": "Tim Duncan",
+        "description": "you are tim duncan"
+    },
+    {
+        "id": 11,
+        "type": "ENTP",
+        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
+        "name": "Tim Duncan",
+        "description": "you are tim duncan"
+    },    
+    {
+        "id": 12,
+        "type": "INFP",
+        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
+        "name": "Tim Duncan",
+        "description": "you are tim duncan"
+    },
+    {
+        "id": 13,
+        "type": "INTP",
+        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
+        "name": "Tim Duncan",
+        "description": "you are tim duncan"
+    },    
+    {
+        "id": 14,
+        "type": "INTJ",
+        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
+        "name": "Tim Duncan",
+        "description": "you are tim duncan"
+    },
+    {
+        "id": 15,
+        "type": "ISTJ",
+        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
+        "name": "Tim Duncan",
+        "description": "you are tim duncan"
+    },    
+    {
+        "id": 16,
+        "type": "ENTJ",
+        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
+        "name": "Tim Duncan",
+        "description": "you are tim duncan"
+    }
+]
