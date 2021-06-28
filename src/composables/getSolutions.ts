@@ -7,7 +7,7 @@ interface sol {
 
 const getSolutions = () => {
 
-    const solutionData = ref<sol[]>([])
+    const solutionData = ref<sol | null>(null)
 
     const bringSolutions = async (temperament: string) =>{
         try {
@@ -15,8 +15,8 @@ const getSolutions = () => {
         const res = await data.json()
         const temp = await res.filter((item: any) => {
             return item.type === temperament
-        })
-        console.log(temp)
+        })    
+        solutionData.value = temp[0]
         
         } catch(err) {
             console.log(err)

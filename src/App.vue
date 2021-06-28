@@ -14,9 +14,11 @@
   flex-direction: column;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
+  padding: 5vw;
   }
 
 .nav {
-  margin: auto;
+  margin: 5vw auto;
+
 }
 </style>

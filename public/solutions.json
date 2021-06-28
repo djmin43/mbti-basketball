@@ -2,113 +2,113 @@
     {
         "id": 1,
         "type": "ISFJ",
-        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
-        "name": "Tim Duncan",
-        "description": "you are tim duncan"
+        "image": "https://cdn.idolnetworth.com/images/23/yao-ming.jpg",
+        "name": "Yao Ming",
+        "description": "당신은 골밑의 수호자 야오밍입니다. 우리 모두에게 당신같은 수호자가 필요합니다."
     },    
     {
         "id": 2,
         "type": "ESFP",
-        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
-        "name": "Tim Duncan",
-        "description": "you are tim duncan"
+        "image": "https://images2.minutemediacdn.com/image/fetch/w_2000,h_2000,c_fit/https%3A%2F%2Fsection215.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F07%2F1939608.jpeg",
+        "name": "Allen Iverson",
+        "description": "오늘만 사는 당신은 앨런 아이버슨입니다. 몸이 부숴지며 뛰는데 연습을 뭣하러 합니까"
     },
     {
         "id": 3,
         "type": "ISFP",
-        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
-        "name": "Tim Duncan",
-        "description": "you are tim duncan"
+        "image": "https://nbadsdmt.akamaized.net/media/nba/nba/thumbs/2020/12/18/1273507_es.jpg",
+        "name": "Kyrie Irving",
+        "description": "당신은 조금 신경질적인 부분이 있을지도 모르겠군요. 여동생 생일파티는 꼭 참석해야합니다. 걱정마시죠, sage잎을 태우면 모든게 해결될테니까."
     },    
     {
         "id": 4,
         "type": "ISTP",
-        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
-        "name": "Tim Duncan",
-        "description": "you are tim duncan"
+        "image": "https://cdn.vox-cdn.com/thumbor/L5PsQ464JLZ9GZSqb8P6vNOpoiU=/0x0:800x532/1400x1050/filters:focal(330x127:458x255):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/52633089/bonnerdunk.0.jpg",
+        "name": "Matt Bonner",
+        "description": "당신의 심장은 강철심장 맷보너입니다."
     },
     {
         "id": 5,
         "type": "ENFP",
-        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
-        "name": "Tim Duncan",
-        "description": "you are tim duncan"
+        "image": "https://www.gannett-cdn.com/presto/2020/08/30/USAT/5096b3f3-0cb6-4c23-a820-0a18a817ca86-2020-08-29_Luka_Doncic.jpg?crop=2780,2109,x0,y343",
+        "name": "Luka Doncic",
+        "description": "모두를 아우르고 사람들을 기쁘게 하는 당신은 루카 돈치크!"
     },    
     {
         "id": 6,
         "type": "ENFJ",
-        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
-        "name": "Tim Duncan",
-        "description": "you are tim duncan"
+        "image": "https://cdn.shopify.com/s/files/1/0163/2904/8118/products/sportscardsingles.167_4127cb6e-4a8a-465b-a52a-006b8d24c014_800x.jpg?v=1617110127",
+        "name": "Clint Capela",
+        "description": "카펠라는 자연을 사랑합니다. 오늘도 카펠라 카드 한장 구매하시죠?"
     },
     {
         "id": 7,
         "type": "INFJ",
-        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
-        "name": "Tim Duncan",
-        "description": "you are tim duncan"
+        "image": "https://2.bp.blogspot.com/-CPMzB6pSx74/TWXEYay16oI/AAAAAAAAABA/MQxWcXqy5dk/s1600/lamar-odom1.jpg",
+        "name": "Lamar Odom",
+        "description": "당신의 가치관은 남들과 조금 다를 수도 있습니다. 걱정하지마세요, 라마오덤도 무척 성공한 농구선수로 남았으니까요."
     },    
     {
         "id": 8,
         "type": "ESTP",
-        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
-        "name": "Tim Duncan",
-        "description": "you are tim duncan"
+        "image": "https://content.api.news/v3/images/bin/2bc8b29fa7efbf23bc465b4e519d0941",
+        "name": "Lebron James",
+        "description": "르브론제임스극혐"
     },
     {
         "id": 9,
         "type": "ESFJ",
-        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
-        "name": "Tim Duncan",
-        "description": "you are tim duncan"
+        "image": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/WOiLQHwVTQR_dyIthoSaiUPgEbc=/1440x0/cloudfront-us-east-1.images.arcpublishing.com/bostonglobe/6FQINRJGMED6RAWLPQRAJR5W74.jpg",
+        "name": "Kevin Garnett",
+        "description": "당신은 모든것에 열정적인 케빈가넷과 같은 사람입니다. "
     },    
     {
         "id": 10,
         "type": "ESTJ",
-        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
-        "name": "Tim Duncan",
-        "description": "you are tim duncan"
+        "image": "https://cdn.vox-cdn.com/thumbor/5q8cpHc9-ac9qQHjf3KMnSxPPGI=/0x0:3000x2000/1400x1400/filters:focal(0x0:3000x2000):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/47005644/GettyImages-71012559.0.jpg",
+        "name": "Sam Cassell",
+        "description": "샘카셀은 훌륭한 포인트가드였죠. 당신도 샘카셀과 같은 사람입니다."
     },
     {
         "id": 11,
         "type": "ENTP",
-        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
-        "name": "Tim Duncan",
-        "description": "you are tim duncan"
+        "image": "https://cdn.newsday.com/polopoly_fs/1.50088371.1607811240!/httpImage/image.jpg_gen/derivatives/landscape_1280/image.jpg",
+        "name": "Steve Nash",
+        "description": "이제 내쉬감독님이라고 부르는게 맞을까요? 당신은 다재다능한 멀티플레이어 백투백 MVP 스티브내쉬입니다."
     },    
     {
         "id": 12,
         "type": "INFP",
-        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
-        "name": "Tim Duncan",
-        "description": "you are tim duncan"
+        "image": "https://lh3.googleusercontent.com/proxy/aOAkFKPuZ0yVerbmhxxdK_pBWp2XgsEgAqLD3XkUJlDz6KPjwALjfD8VQxqzEOrT5HaDp-Gbs8Nq0h3-edMRw5wC613LimzC4TM5AxyCpH618X0RvQ3P",
+        "name": "Emeka Okafor",
+        "description": "당신은 KBL특급 에메카 오카포입니다. 요가를 즐겨한다는 오카포처럼 당신도 평화주의자일지도!"
     },
     {
         "id": 13,
         "type": "INTP",
-        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
-        "name": "Tim Duncan",
-        "description": "you are tim duncan"
+        "image": "https://cdn.vox-cdn.com/thumbor/OS6RENq5XZB1mFRKqa7umnHrHrY=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/16344254/1155800281.jpg.jpg",
+        "name": "Klay Thompson",
+        "description": "당신은 주어진 일에는 완벽주의자같은 모습을 보여줍니다. 사람들은 커리를 기억하겠지만, 클레이탐슨이 없었다면 우승을 못했을겁니다."
     },    
     {
         "id": 14,
         "type": "INTJ",
-        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
-        "name": "Tim Duncan",
-        "description": "you are tim duncan"
+        "image": "https://scontent.ficn3-1.fna.fbcdn.net/v/t1.18169-9/29985_391300824498_7655948_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=de6eea&_nc_ohc=sjlPd2jusLEAX9YtcQI&_nc_oc=AQkNIFwqKTU_0ZV4gINxPWXAcp2VH-ruKCVsklk7ciVm-KCcVQxDRzFaVK4yr8lLd6U&_nc_ht=scontent.ficn3-1.fna&oh=e8f9252fe26f9bd8a4da848ab89f7e82&oe=60DEE848",
+        "name": "Austin Lee",
+        "description": "당신은 NBA 명예의 전당에 오른 오스틴 리 입니다. 큰 키에서 나오는 파리채 블럭, 가공할 높이의 타점에서 나오는 3점슛, 그리고 팀메이트들을 살려주는 다재다능한 플레이메이킹까지.. 당신은 도대체 가지지 못한것이 무엇이죠?"
     },
     {
         "id": 15,
         "type": "ISTJ",
-        "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
-        "name": "Tim Duncan",
-        "description": "you are tim duncan"
+        "image": "https://static.stacker.com/s3fs-public/croppedUntitleddesign1KTSZpng.PNG",
+        "name": "Kobe Bryant",
+        "description": "코비브라이언트는 하루에 4시간만 잤다고 합니다. 당신도 승리를 위해서라면 모든 것을 바치는 승부사입니다."
     },    
     {
         "id": 16,
         "type": "ENTJ",
         "image": "http://www.yardbarker.com/media/4/e/4e0080f61a68ae897d50b9aa7535e3a0b98507e3/thumb_16x9/tim-duncan-stepping-away-his-full-time-coaching.jpg?v=1",
         "name": "Tim Duncan",
-        "description": "you are tim duncan"
+        "description": "웨이크포레스트 대학 4학년을 모두 마치고 NBA도 최고의 선수로 졸업한 당신은 팀던컨입니다. 미스터 기본기라고 불리는만큼 당신도 매사에 착실함으로 결과를 만들어 냅니다."
     }
 ]

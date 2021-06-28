@@ -19,10 +19,10 @@ export default defineComponent({
 
 <style>
     .container {
-        width: 500px;
-        height: 500px;
-        margin: 5vw auto;
-        padding: 5vw;
+
+        margin: 1vw auto;
+        padding: 3vw;
         box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+        text-align: center;
     }
 </style>

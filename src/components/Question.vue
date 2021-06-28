@@ -1,18 +1,15 @@
 <template>
     <div v-if="currentQuestion">
         <div class="question" >
-            <h3 >Question: {{ currentQuestion.question }}  </h3>
+            <h3 >{{ currentQuestion.question }}  </h3>
         </div>
         <div class="choices">
-            <button @click="handleAnswer(currentQuestion.answers.a)">{{ currentQuestion.choices.a}} </button>
+            <button @click="handleAnswer(currentQuestion.answers.a)" >{{ currentQuestion.choices.a}} </button>
             <button @click="handleAnswer(currentQuestion.answers.b)" >{{ currentQuestion.choices.b}} </button>
         </div>     
     </div>
-    <!-- <div v-if="temperamentResult.length > 0 && renderSolution === false" > -->
-    <div >
-        <Solution @test="calculateSolution(temperament)" :temperament="temperament" />
-        <h3 v-if="renderSolution === false">asjdkf</h3>
-        {{ solutionData }}
+    <div  v-if="temperamentResult.length > 0">
+        <Solution @test="calculateSolution(temperament)" :temperament="temperament" :solutionData="solutionData" />
     </div>
 </template>
 
@@ -66,11 +63,12 @@ export default defineComponent ({
 
 .choices {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
 .choices button {
-    padding: 1vw;
+    font-size: 24px;
+    padding: 2vw;
     margin: 1vw;
     color: white;
     background: #f57c00;
@@ -82,5 +80,7 @@ export default defineComponent ({
 .choices button:active{
     background: #ff9800
 }
+
+
 
 </style>
