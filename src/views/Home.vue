@@ -6,7 +6,7 @@
     <p>간단한 mbti 문항 테스트를 하고 빨간 버튼을 눌러주세요. 문항에 대해서 너무 깊이 생각하지 말아주세요. </p>
     <p>상단에 Quiz를 누르시면 바로 진행 가능합니다. </p>
     <p><b><i>가장 중요한 것은 마음에 들지 않는 선수가 나와도 인정해야 하다는것입니다.</i></b></p>
-    <img src="https://a4.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fmisc_logos%2F500%2Fnba.png" />
+    <img class="nba" src="https://a4.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fmisc_logos%2F500%2Fnba.png" />
   </div>
 </template>
 
@@ -24,6 +24,11 @@ export default defineComponent({
 <style >
   .home {
     text-align: center;
+  }
+
+  .nba {
+    object-fit: contain;
+    width: 50vw;
   }
 
 </style>

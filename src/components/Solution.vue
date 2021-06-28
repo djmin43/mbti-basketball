@@ -45,7 +45,7 @@ export default defineComponent({
 
   .playerPhoto {
     object-fit: contain;
-    width: 500px;
+    width: 80vw;
   }
 
   .calculateButton {
