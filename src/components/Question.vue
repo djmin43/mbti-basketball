@@ -11,35 +11,37 @@
     
     <button @click=" questionNumber++">up</button>
     <button @click=" questionNumber--">down</button>
-
-    {{ questionNumber }}
+    <button @click="getTemperament"> Answers </button>
     {{ answers }}
 </template>
 
 <script lang="ts">
 import { defineComponent, ref, onMounted, computed, reactive, watch } from "vue";
 import loadQuestions from '../composables/loadQuestions'
+import getTemperament from '../composables/getTemperament'
 
 export default defineComponent ({
     name:"Question",
     setup () {
-        const questionNumber = ref<any>(0)
-        const answers = ref<any>([])
-        const { load, questions } = loadQuestions()
+        const { load, questions, currentQuestion, questionNumber } = loadQuestions()
+        const { answers, temperamentCalculator, temperament } = getTemperament()
 
         load()
-
-        const currentQuestion = computed(() => {
-            return questions.value[questionNumber.value]
-        })
 
         const handleAnswer = (answer: string) => {
             answers.value.push(answer)
             questionNumber.value++
+            if ( questionNumber === 12) {
+                temperamentCalculator()
+            }
         }
 
+
+
+
+
         return { 
-            questionNumber, questions, currentQuestion, answers, handleAnswer
+            questionNumber, questions, currentQuestion, answers, handleAnswer, getTemperament
 
         }
     }
