@@ -13,10 +13,27 @@
 <script lang="ts">
 import { defineComponent } from "vue";
 
+declare global {
+    interface Window {
+        dataLayer:any;
+    }
+}
+
 export default defineComponent({
   name: "Home",
   components: {
   },
+  setup() {
+    console.log('testing gtm!')
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+    'event': 'signup',
+    'userType': 'Free User'
+});
+    return {
+
+    }
+  }
 
 });
 </script>
