@@ -44,6 +44,11 @@ export default defineComponent ({
         
         const handleAnswer = (answer: string) => {
             answers.value.push(answer)
+            console.log('answered!')
+            window.dataLayer.push({
+            'event': 'answerPick',
+            'answer': 'answer'
+            });
             questionNumber.value++
             if ( questionNumber.value === 12) {
                 temperamentCalculator()
