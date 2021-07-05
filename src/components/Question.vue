@@ -44,10 +44,11 @@ export default defineComponent ({
         
         const handleAnswer = (answer: string) => {
             answers.value.push(answer)
-            console.log('answered!')
+            console.log(answer)
             window.dataLayer.push({
             'event': 'answerPick',
-            'answer': answer
+            'answer1': answer,
+            'answer2': 'answer'
             });
             questionNumber.value++
             if ( questionNumber.value === 12) {
