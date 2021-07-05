@@ -47,7 +47,7 @@ export default defineComponent ({
             console.log('answered!')
             window.dataLayer.push({
             'event': 'answerPick',
-            'answer': 'answer'
+            'answer': answer
             });
             questionNumber.value++
             if ( questionNumber.value === 12) {
